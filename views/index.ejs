@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" http-equiv="Content-Type" content="width=device-width" charset=utf-8" />
+<title>Astro de Regiones</title>
+<style type="text/css">
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+h2 {
+	color: #F00;
+	font-size: 36px;
+}
+h3 {
+	font-size: 24px;
+	color: #00F;
+}
+.boton{
+       font-size:14px;
+        width:160px;
+        height:100px;
+		text-align:center;
+       }
+</style>
+</head>
+<body>
+<%if (login){%>
+<p align="center">Bienvenido : <strong><%= name %></strong></p>
+<%}else{%>
+<p><strong><%= name %></strong></p>
+<%}%>
+</body>
+</html>
+

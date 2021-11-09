@@ -1,0 +1,122 @@
+<table border="0" align="center" width="<?php echo $largo ?>">
+
+    <tr>
+        <td align="left" rowspan="2" colspan="2">
+            <?php if (($colname_AREA == "TOT") ) {  ?>
+            <form id="form2" name="form2" method="post"
+                action="/Lista de Alarmas/ResumenRM.php?recordID=TMETRO&Codigo=<?php echo $Codigo ?>">
+                <input type="image" name="imageField0" src="/Lista de Alarmas/Imagenes/Metropolitana.png" height="25"
+                    width="120">
+            </form>
+            <?php } ?>
+        </td>
+        <td rowspan="2" colspan="2">
+            <form id="form2" name="form2" method="post"
+                action="/Lista de Alarmas/ResumenElectrico.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+
+                <div align="center">
+                    <input type="image" name="imageField" src="/Lista de Alarmas/Imagenes/Electrico2.png" height="55"
+                        width="55">
+                </div>
+            </form>
+
+
+        </td>
+        <td align="center" style="font-size:18px" colspan="3">
+            <font color="#FF0000"><b>
+                    RESUMEN ALARMAS ACTIVAS
+        </td>
+        <td rowspan="2" Align="CENTER" colspan="2">
+            <?php if (($colname_AREA == "TOT") or $colname_AREA == "SGON" or $colname_AREA == "SGOS" ) {  ?>
+            <form id="form2" name="form2" method="post"
+                action="/Lista de Alarmas/Menu_Subtel.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+
+                <div align="center">
+                    <input type="image" name="imageField" src="/Lista de Alarmas/Imagenes/subtel.png" height="55"
+                        width="55">
+                </div>
+            </form>
+            <?php } ?>
+        </td>
+        <td rowspan="2" Align="CENTER" colspan="2">
+
+            <form id="form2" name="form2" method="post"
+                action="/Lista de Alarmas/TemperaturaNodeB.php?&area=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>&AT=ALL">
+
+                <div align="center">
+                    <input type="image" name="imageField" src="/Lista de Alarmas/Imagenes/termometro.jpg" height="60"
+                        width="60">
+                </div>
+            </form>
+        </td>
+        <td rowspan="2" Align="CENTER" colspan="2">
+
+            <form id="form2" name="form2" method="post" action="/Lista de Alarmas/Mapa11.php?recordID=<?php
+    echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+                <input type="image" name="imageField0" src="/Lista de Alarmas/Imagenes/Google-Maps.png" height="50"
+                    width="60">
+            </form>
+
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" Align="center" style="font-size:20px">
+            <font color="#0000FF"><b>
+                    <?php echo $row_Perfil['nombre']; ?>
+                </b>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" colspan="2" style="font-size:14px">Nemonico (5 Caracteres)</td>
+
+        <td colspan="5" Align="center" style="font-size:18px">
+            <font color="#FF0000"><b>
+                    <?php
+    $Hactua = $data['fecha'];
+    $hora = substr($Hactua, 11,8);
+    
+    echo "Proxima Actualizacion ". date("H:i:s", strtotime($hora."+5 minute"));
+    ?>
+        </td>
+
+        <td rowspan="2" Align="CENTER" colspan="2">
+            <?php if (($colname_AREA == "TOT") or ($colname_AREA == "SGOS") or ($colname_AREA == "SGON")) {  ?>
+            <form id="form2" name="form2" method="post" action="/Lista de Alarmas/Reporte_Indisponibilidades.php?recordID=<?php
+    echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>&AT=RESUMEN">
+                <input type="image" name="imageField0" src="/Lista%20de%20Alarmas/Imagenes/Reporte.png" height="60"
+                    width="50">
+            </form>
+            <?php } ?>
+        </td>
+        <td rowspan="2" Align="CENTER" colspan="2">
+            <form id="form1" name="form1" method="post"
+                action="/Lista de Alarmas/Graf_Ind5.php?recordID=<?PHP echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+
+                <input type="image" name="imageField0" src="/Lista de Alarmas/Imagenes/Reporte2.PNG" height="60"
+                    width="50">
+            </form>
+        </td>
+        <td rowspan="2" Align="CENTER" colspan="2">
+            <form id="form2" name="form2" method="post"
+                action="/Lista de Alarmas/Core_Voz.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+                <input type="image" name="imageField0" src="/Lista de Alarmas/Imagenes/Core.png" height="60" width="60">
+            </form>
+        </td>
+    </tr>
+    <form action="<?php echo $editFormAction; ?>" method="post" name="form3" id="form3">
+        <tr>
+            <td width="50" Align="CENTER" colspan="1">
+                <label><input type="text" name="nemo" value="" size="1" class="boton9"
+                        onkeyup="this.value=Numeros(this.value)" maxlength="5" /></label>
+
+            </td>
+            <td>
+                <div align="left">
+                    <input type="image" name="imageField" src="/Lista de Alarmas/Imagenes/Buscar.png" height="20"
+                        width="30" onchange="form3.submit()">
+                </div>
+                <input type="hidden" name="MM_update3" value="form3" />
+    </form>
+    </td>
+
+</table>

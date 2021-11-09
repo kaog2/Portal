@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Larga Distancia Local Rancagua</name>
+	<open>1</open>
+	<Style id="inline26">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin157212">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin16721</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin13811</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline25">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin1183">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbbeeff</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin9112">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline26</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1576000">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline05">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline02">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin1283">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1252</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1183</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline00">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline9">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin112000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin289">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffb8e220</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline12">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin145100000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin62500">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7faaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin16731">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline112">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin10630">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin145102</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1130100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline113">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin122300">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin145100000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin11800101</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin275">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin473</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin288</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin137110">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline04">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline18</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline18">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin105002">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaa00</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline5">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin373">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffb8e220</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline3">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin159100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_homegardenbusiness1">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="inline14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline25</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin16721">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin146201">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin16731</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin137110</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline06">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline21</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline01">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin13811">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffaaff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin452">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin289</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin373</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin1130100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin103100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin112000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin62500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline111">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline06</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_homegardenbusiness2">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/homegardenbusiness.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin145102">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1951000">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin23800">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1951000</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin1576000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline11">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline13">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin12211">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin137001">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin15310</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin12211</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin15310">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffaa</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline7">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin11800101">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff55ff</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin201021">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline19">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin994">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin9112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin105002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin711200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin10112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin201021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline16">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline03">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="inline23">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline112</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline05</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="inline17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline19</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline21">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline10">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline24">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline0">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin473">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline4">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10112">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ff55</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline20">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline02</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin1252">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffbbeeff</color>
+			<width>8</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="inline110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline24</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline00</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_homegardenbusiness3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_homegardenbusiness2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_homegardenbusiness1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin167005">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin1965</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin159100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin288">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffff00aa</color>
+			<width>10</width>
+		</LineStyle>
+	</Style>
+	<Style id="inline1">
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin1965">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ffffff55</color>
+			<width>4</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Larga distancia Local</name>
+		<Placemark>
+			<name>FO SVTT-COINCO</name>
+			<description>4 pelos vacantes 03/2015</description>
+			<styleUrl>#msn_ylw-pushpin103100</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.95669130468276,-34.22863372067008,0 -70.94769042452413,-34.24188092484265,0 -70.94772394368725,-34.24337772564049,0 -70.95455012630548,-34.25094660103808,0 -70.94881763794827,-34.26372195768379,0 -70.94863551679721,-34.26604132381728,0 -70.94879001559234,-34.26619549609457,0 -70.94926633741541,-34.26660639877309,0 -70.9498148414494,-34.26714094768934,0 -70.95107880850348,-34.26978208011749,0 -70.95136816441878,-34.26970058860912,0 -70.95233162416979,-34.2690578111016,0 -70.9536684666115,-34.26885174278822,0 -70.95609437226717,-34.26918532999849,0 -70.95799404830043,-34.27031670746074,0 -70.96023778347042,-34.27096000833743,0 -70.96701444176348,-34.27403130054968,0 -70.97035398453063,-34.27372156164829,0 -70.97357202043101,-34.27478054098339,0 -70.9747907742271,-34.2742391099277,0 -70.97576173596674,-34.27545400727839,0 -70.97714613924524,-34.27597477660425,0 -70.97873740517403,-34.27639110608455,0 -70.97881641332957,-34.27743023036136,0 -70.98012809803573,-34.2782879124126,0 -70.98210329323106,-34.27994009710406,0 -70.98207347656346,-34.28123339634407,0 -70.98269933838712,-34.282295551388,0 -70.98379592222646,-34.2842909915035,0 -70.98558460551418,-34.28826601783317,0 -70.98597735375193,-34.28988894567501,0 -70.98604398440717,-34.29107505810929,0 -70.98561131575599,-34.29113711078153,0 -70.9855922260021,-34.29152080052618,0 -70.98561360696155,-34.29176778983064,0 -70.98593322043493,-34.29212507509438,0 -70.98620110302352,-34.29235475468892,0 -70.98631444455749,-34.29246537667336,0 -70.98537638203192,-34.29361614872005,0 -70.98657274010036,-34.29506612656435,0 -70.98654246712974,-34.29530372508875,0 -70.98620428549869,-34.29578161956794,0 -70.98619295819383,-34.29615698906447,0 -70.98903627717378,-34.30293474788148,0 -70.98981374161171,-34.30480564093706,0 -70.99232280976493,-34.31033172167124,0 -70.99165859557284,-34.31126373126954,0 -70.98933142269165,-34.31250201009615,0 -70.98856565935549,-34.31368025746507,0 -70.98635722695884,-34.3190024003531,0 -70.97926769995503,-34.32140763686441,0 -70.97551865911856,-34.32224284378614,0 -70.96940512169161,-34.33466339556107,0 -70.96871538025603,-34.33605239834644,0 -70.96767509972298,-34.33664372406664,0 -70.96738378987855,-34.33755718872808,0 -70.96712331368637,-34.33825665753144,0 -70.96768154259486,-34.33886350748794,0 -70.96866703307182,-34.33879021070479,0 -70.97120700949205,-34.34199148904975,0 -70.96999507746611,-34.34940185894465,0 -70.9698430733532,-34.35376652858441,0 -70.96972738925624,-34.35478272213277,0 -70.96453425631134,-34.35502179609539,0 -70.96450055744495,-34.35489464298993,0 -70.96465361570337,-34.35490980397373,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO OROCOIPO</name>
+			<description>fo 16 pelos gultro BTS</description>
+			<styleUrl>#msn_ylw-pushpin711200</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.73524089750313,-34.21579100157796,0 -70.73525998474872,-34.21568647439725,0 -70.73553034588467,-34.2156237213566,0 -70.73548065294619,-34.21523794195429,0 -70.73533920368298,-34.21460857453871,0 -70.73527323706227,-34.21420702129238,0 -70.73548663035189,-34.21370394116588,0 -70.73608578355487,-34.21349411035775,0 -70.73720396772387,-34.21328261012422,0 -70.73782904818245,-34.21300598141505,0 -70.73798974864505,-34.21277212191878,0 -70.73815728320594,-34.21259592130713,0 -70.73782857565496,-34.21222912073856,0 -70.73744696520842,-34.21173832918426,0 -70.73762490660526,-34.21151454960648,0 -70.73786167435706,-34.21101683340883,0 -70.73765596484317,-34.21048064094536,0 -70.73753616835799,-34.21019703840016,0 -70.73755803351236,-34.21008621705898,0 -70.73832592381994,-34.21014977088773,0 -70.73855394951438,-34.21022506825984,0 -70.73874631325175,-34.2100141190809,0 -70.74000668271997,-34.20827402467874,0 -70.74050426023088,-34.20786839880174,0 -70.74092829071434,-34.20771045939785,0 -70.74564790433477,-34.20554497843199,0 -70.74855953424824,-34.20444100921295,0 -70.74906344415383,-34.20417447815876,0 -70.74939381420329,-34.20409319955196,0 -70.75014403077476,-34.20358885718111,0 -70.75122969032104,-34.20287024092801,0 -70.75249498712441,-34.20229380414052,0 -70.75367688579004,-34.20200357828099,0 -70.75430638967119,-34.20184475371937,0 -70.75542493750852,-34.20155701714997,0 -70.75591100512273,-34.20143322526793,0 -70.75658373354004,-34.20139196369203,0 -70.75817524196297,-34.2013562242539,0 -70.75885349218501,-34.20100602369455,0 -70.75944349276958,-34.20074081018389,0 -70.75976442652492,-34.20056922363644,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>enlace ran3-ran4</name>
+			<description>OECC-6 -05630/2013  FO 1 - 96</description>
+			<styleUrl>#msn_ylw-pushpin23800</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74675533568957,-34.17002205286257,0 -70.74635766461964,-34.17005951925611,0 -70.74677072363525,-34.17176692637793,0 -70.74106672921492,-34.17256242875536,0 -70.74087681700523,-34.17147212376495,0 -70.73763647962129,-34.17193336919296,0 -70.73545307093849,-34.17221665233501,0 -70.73519372603393,-34.17113232491018,0 -70.72981509644241,-34.17186228031711,0 -70.7223702072955,-34.17297899304539,0 -70.71916339459501,-34.17363404738196,0 -70.71852689454798,-34.17375676083022,0 -70.71796270707652,-34.17381101876488,0 -70.72030981125084,-34.17643654098102,0 -70.71999059232985,-34.17665290317433,0 -70.71961661714644,-34.17676562992051,0 -70.71909581873865,-34.17681609539358,0 -70.71686929666581,-34.17713663291264,0 -70.71593828009846,-34.17738465564457,0 -70.71522767592565,-34.17811312203223,0 -70.71440649615447,-34.1772603950394,0 -70.71411661340861,-34.1774532886153,0 -70.71375896727119,-34.17699546732988,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO COLT-DOÑI</name>
+			<styleUrl>#msn_ylw-pushpin157212</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.9669269108775,-34.22629572844728,0 -70.96692739340098,-34.22611390417951,0 -70.96906539860471,-34.2259326052716,0 -70.96881648108223,-34.22783713686719,0 -70.96851437975548,-34.23108504289965,0 -70.96864747086423,-34.23121036922642,0 -70.97173879878886,-34.23256162631775,0 -70.9722145975603,-34.23268694462539,0 -70.97486473947383,-34.23388899611883,0 -70.97648904855951,-34.23457927674416,0 -70.97678337314852,-34.23472580746945,0 -70.97731637802008,-34.23499405007218,0 -70.97826673332119,-34.23563110930441,0 -70.98184863447527,-34.23877158363538,0 -70.98300264024749,-34.23973324365798,0 -70.98327159425553,-34.24003691468408,0 -70.98346504555005,-34.24013340339736,0 -70.98366980903373,-34.24024682299115,0 -70.98390399593031,-34.24031557320426,0 -70.98444727582572,-34.24055145446866,0 -70.98477273839134,-34.24073971909645,0 -70.98630914422849,-34.24227521281233,0 -70.98652206397288,-34.24262587164635,0 -70.98708299807612,-34.24395137607814,0 -70.98718776943073,-34.24418227007534,0 -70.98717091652689,-34.24449866706745,0 -70.98723285428208,-34.24475977278414,0 -70.98751217542016,-34.24513157710302,0 -70.98768189638498,-34.24528793862442,0 -70.98776029250035,-34.24541471287937,0 -70.98777508067026,-34.24561610023376,0 -70.98777555243656,-34.24575703859261,0 -70.98781950683653,-34.24588861657077,0 -70.98789886510059,-34.24598175744747,0 -70.9885374966976,-34.24642419511754,0 -70.98888266904308,-34.24677812187613,0 -70.98932386791843,-34.24693699408955,0 -70.98944309518041,-34.24719291573292,0 -70.98945407413805,-34.2473661025792,0 -70.98962651410905,-34.24770663624298,0 -70.98971739511484,-34.24791081433721,0 -70.98975046080832,-34.24815192140251,0 -70.98970948942033,-34.24844090877546,0 -70.9896284203566,-34.24877561731343,0 -70.98958726765812,-34.24927482262176,0 -70.98970018058877,-34.24980083604344,0 -70.98977519243525,-34.25018995946264,0 -70.98978912495518,-34.25043334465232,0 -70.99005901365906,-34.25206756442829,0 -70.99021334170371,-34.25221856795447,0 -70.99053805329578,-34.25237199781425,0 -70.99084697449311,-34.2524729136794,0 -70.99110451167677,-34.25258778483311,0 -70.99128683921295,-34.25269672404141,0 -70.99137586979623,-34.25291335155381,0 -70.99162644018172,-34.25326661506077,0 -70.99175372160312,-34.25338631378057,0 -70.99215205268558,-34.25341200344288,0 -70.99270672939784,-34.25357631864572,0 -70.99236408607065,-34.25422703797813,0 -70.99294859745856,-34.25439178771339,0 -70.9930009553138,-34.25489418954809,0 -70.9930186965847,-34.25500902722286,0 -70.99663046190287,-34.25592210607346,0 -71.02163042715378,-34.26265030630219,0 -71.0222413353123,-34.26275367122685,0 -71.0229484400836,-34.2628262605589,0 -71.05359044898424,-34.26681162578983,0 -71.05429472398619,-34.26688543877536,0 -71.05583879659417,-34.26758979603903,0 -71.05697569570216,-34.26832954924772,0 -71.06364901957718,-34.27300269163613,0 -71.08445919748411,-34.28745274159137,0 -71.08299066769533,-34.28943741932942,0 -71.08323230862108,-34.28948933111947,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO Resp MOv</name>
+			<description>cap 07  fo 32   1 a 32</description>
+			<styleUrl>#msn_ylw-pushpin167005</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74685480944309,-34.17010716379014,0 -70.74688698707457,-34.17002094908967,0 -70.74719137380282,-34.16997065925947,0 -70.74708132122416,-34.16938201520819,0 -70.74757575830282,-34.16925438457503,0 -70.74731608499233,-34.16820323213106,0 -70.74604139110353,-34.16839006023655,0 -70.74315117503147,-34.16879424106322,0 -70.74050221362799,-34.16913526960784,0 -70.7397899083502,-34.16572296714897,0 -70.73706897623107,-34.16607895277003,0 -70.73742410199668,-34.16789554955936,0 -70.73779540593269,-34.16786017379602,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>RAN3-RAN5 PPAL</name>
+			<description>CABLE 64 PELOS</description>
+			<styleUrl>#msn_ylw-pushpin275</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.7468604539536,-34.16993495548221,0 -70.74727965688966,-34.169861140751,0 -70.74723024150893,-34.1693976301644,0 -70.74764440051234,-34.16920586778711,0 -70.74727834980472,-34.16817376774264,0 -70.74615424626408,-34.16833547046597,0 -70.74600465823977,-34.16836141408185,0 -70.74501502962487,-34.16361084742782,0 -70.74442171901654,-34.16053193339439,0 -70.7442433893378,-34.15963296833974,0 -70.74353083953091,-34.15574451386392,0 -70.74324734305482,-34.15414049478838,0 -70.74063123213598,-34.15451523634071,0 -70.7404323578795,-34.15368319116133,0 -70.74024707579041,-34.15371377531144,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO LTE ALMARZA</name>
+			<description>CABLE ENLACE RESP RAN3-RAN5 FO 64 5962/2013</description>
+			<styleUrl>#msn_ylw-pushpin137001</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74213425089324,-34.1665664633359,0 -70.74206440192343,-34.16655063111284,0 -70.74140123563633,-34.16659977723155,0 -70.74121247272541,-34.16666905828716,0 -70.74077485318006,-34.16672980271367,0 -70.74030245039251,-34.16680247274167,0 -70.74011211360494,-34.16684767290658,0 -70.73984203594564,-34.16686681220775,0 -70.73867208677984,-34.16705522409647,0 -70.73856068755362,-34.16706050103421,0 -70.73854929744869,-34.16699558735864,0 -70.73865669740181,-34.1670056663743,0 -70.73866024342389,-34.16696723997355,0 -70.73849720801122,-34.16696941715865,0 -70.73850044873012,-34.16706510667061,0 -70.73824118233024,-34.16709525947493,0 -70.73731940268517,-34.16722791262021,0 -70.73748272362366,-34.16804215586716,0 -70.73774151560616,-34.16799318051336,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO ALM-ORO</name>
+			<description>OECF-6 -06858/2011  fo 32 pelos hasta gultro</description>
+			<styleUrl>#msn_ylw-pushpin146201</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.7377594698772,-34.16790890624164,0 -70.73743141299452,-34.16797432702523,0 -70.73781984103779,-34.17057472695818,0 -70.73897273082378,-34.17528271680101,0 -70.74153969401745,-34.17476901036841,0 -70.74275876285466,-34.17647867957752,0 -70.75012861655624,-34.18689495152744,0 -70.75297084563125,-34.19071954398229,0 -70.75582743671346,-34.19452374487855,0 -70.75794727575855,-34.19783557072483,0 -70.76004563187465,-34.20058256009495,0 -70.75971302572687,-34.20060610875623,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO ALMARZA CAP 07</name>
+			<description>OECC-6 -05959/2013 FO 64 A ALMARZA CAP 07</description>
+			<styleUrl>#msn_ylw-pushpin122300</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74613907738495,-34.1686003646928,0 -70.74597982239257,-34.16838349746672,0 -70.74460155219546,-34.16856199742143,0 -70.74440054992509,-34.16740455978921,0 -70.73754654334273,-34.16837489224371,0 -70.73746818300671,-34.16800385724927,0 -70.73777318670344,-34.16795230728484,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>fo resp 2 ran3 -ran5</name>
+			<description>fo 64 pelos OECF-6 -01274/2013  Respaldo 2 Ran3-Ran5</description>
+			<styleUrl>#msn_ylw-pushpin1283</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74684169414037,-34.16993080553026,0 -70.74725912974486,-34.16992640149886,0 -70.74716276920682,-34.16941812652565,0 -70.75010287895515,-34.16884720703881,0 -70.74967556032085,-34.16600716107763,0 -70.74956079200894,-34.16549108299704,0 -70.74938689296197,-34.16420130335897,0 -70.74950795555483,-34.16415616828019,0 -70.74947059083458,-34.1639133264356,0 -70.74936848111336,-34.16385950497119,0 -70.74911579744467,-34.1626875291906,0 -70.74893348965482,-34.16218064700016,0 -70.74856008782628,-34.16136931688041,0 -70.74787670297199,-34.16030200268142,0 -70.74614015434477,-34.15768278794143,0 -70.74627037420167,-34.1575484279203,0 -70.74510704863715,-34.15592301370758,0 -70.74489308450028,-34.15554659546277,0 -70.74456213622032,-34.15413463132291,0 -70.7445291311476,-34.15398428757345,0 -70.74330832174151,-34.1541111358807,0 -70.74298159613983,-34.15247945762427,0 -70.74027946860528,-34.15281021978744,0 -70.74038510383087,-34.15363424594289,0 -70.74010483436906,-34.15371267077651,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>FO PEUM-LCAB</name>
+			<styleUrl>#msn_ylw-pushpin10630</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.16756056565262,-34.39799011639133,0 -71.16855514243737,-34.39700416933972,0 -71.16755564691999,-34.39618508252786,0 -71.16936971891504,-34.39413411030493,0 -71.17026228148647,-34.39221045635039,0 -71.17059745399024,-34.39108627749323,0 -71.17125064598824,-34.39038202977141,0 -71.1718774754514,-34.3885729117039,0 -71.17224118531158,-34.3880103688923,0 -71.17329318869925,-34.38582150938431,0 -71.1738271850372,-34.38547910738144,0 -71.17448246719796,-34.38519699651627,0 -71.17535757813313,-34.38469266882371,0 -71.17593936997787,-34.38376662502236,0 -71.17781026746719,-34.38209336905015,0 -71.18241026385223,-34.37882098553345,0 -71.22672028542448,-34.34659180571096,0 -71.22805821789434,-34.34569133981258,0 -71.23039413342039,-34.34396746892291,0 -71.2314754355819,-34.34306151698872,0 -71.23190983937901,-34.34244371292105,0 -71.23287445161026,-34.33977852839679,0 -71.23371863084961,-34.33752576018511,0 -71.23421839639101,-34.33680076282379,0 -71.23510125775083,-34.33568714932203,0 -71.24092737735583,-34.32926208552275,0 -71.2425229208953,-34.32786645206831,0 -71.24348356668158,-34.32698239692881,0 -71.24452996328873,-34.32627073521046,0 -71.27310755119039,-34.30239765981126,0 -71.27372685778813,-34.301950318502,0 -71.27494102465892,-34.30138944779499,0 -71.27657058385147,-34.30047189694422,0 -71.27730717376031,-34.3001546443465,0 -71.29155884716687,-34.29462037487784,0 -71.29252294906586,-34.29457711219278,0 -71.29817093379307,-34.29620154632259,0 -71.29866208974478,-34.29624817412995,0 -71.29946739344068,-34.29625532983238,0 -71.30047017699759,-34.2960399895858,0 -71.311629813503,-34.29372558071544,0 -71.31042859126489,-34.29208062427623,0 -71.30958710218289,-34.29232844032711,0 -71.3080278393272,-34.28947775899627,0 -71.30831236086976,-34.2894188225707,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>fo ran3-ran5</name>
+			<description>OECF-6-0593/2013
+RAN3 128 - RAN 5 64</description>
+			<styleUrl>#msn_ylw-pushpin452</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74680223546056,-34.16999368448114,0 -70.74649125551034,-34.16999701884681,0 -70.7465425012014,-34.17069994851524,0 -70.7461849555449,-34.17070186976225,0 -70.74391692673248,-34.17105616862654,0 -70.74358352167989,-34.17110030189517,0 -70.74341478013702,-34.17109943855555,0 -70.74329398925572,-34.1711244909492,0 -70.74239019873593,-34.17124395828633,0 -70.74213668431231,-34.17008043394431,0 -70.74115619998688,-34.1654600262662,0 -70.73983737953526,-34.16565966549725,0 -70.73968876363986,-34.16515935530484,0 -70.73968288680074,-34.16511201017627,0 -70.73972849374007,-34.16511205601911,0 -70.73970843792911,-34.16508362154808,0 -70.73968563127231,-34.16508359855037,0 -70.73964534696825,-34.16498878502742,0 -70.73760989878089,-34.15484031093768,0 -70.73791108826371,-34.15479634548776,0 -70.73996319883581,-34.15458225920722,0 -70.7397841212757,-34.15367336508533,0 -70.74009452635313,-34.15367021436929,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>fo zañartu OECF-6 -05707-2014</name>
+			<description>OC RAN3 -F.O. 22-23-24-25 CAP-09</description>
+			<styleUrl>#msn_ylw-pushpin994</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.73731103183198,-34.17395598471535,0 -70.73716308489003,-34.17321815396389,0 -70.73704506011528,-34.17274005349341,0 -70.73700117490021,-34.17257037987168,0 -70.73698531591741,-34.17253825851245,0 -70.73678005382261,-34.17259662529413,0 -70.73669473386491,-34.17263177429205,0 -70.73662269012834,-34.1726994975824,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Doñihue Coinco</name>
+			<styleUrl>#inline6</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.95479999390373,-34.22796436284289,0 -70.9565802994431,-34.22849902822431,0 -70.95281761820537,-34.23434328002233,0 -70.95076684280872,-34.23698541267164,0 -70.94902349931331,-34.23978735051537,0 -70.94758503271231,-34.24202227613671,0 -70.947517642452,-34.24303078659577,0 -70.94790983426702,-34.244058327332,0 -70.95144707226947,-34.24784666921217,0 -70.9540020918694,-34.25029429091168,0 -70.954212244529,-34.25114919098115,0 -70.9539822865089,-34.25214583338245,0 -70.95269163417747,-34.25470732080413,0 -70.95158180604811,-34.25733890322509,0 -70.95049751188803,-34.2600687089775,0 -70.94993345926761,-34.26145579209874,0 -70.94902751820882,-34.26277902002142,0 -70.94869078636974,-34.26332793533886,0 -70.94859903136354,-34.26423490791744,0 -70.94852516452787,-34.26505616928405,0 -70.94856255016735,-34.26615803825889,0 -70.94969412488749,-34.26714487414404,0 -70.95003007852586,-34.26777389514128,0 -70.95054034035974,-34.26888432676515,0 -70.94899628809608,-34.26936323018147,0 -70.94915070438371,-34.27018314922891,0 -70.94925617179727,-34.27016855727405,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Quinta Zuñiga 66</name>
+			<styleUrl>#inline23</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.96473614121547,-34.35501675665547,0 -70.96456935554131,-34.35500801591781,0 -70.96467105488207,-34.35512695823209,0 -70.96963324085876,-34.35484610813759,0 -70.96954746546182,-34.35585908906825,0 -70.97212552898394,-34.35528416635842,0 -70.97532655858979,-34.35508682495037,0 -70.97678474195563,-34.35471407684519,0 -70.98025751552672,-34.35474482508431,0 -71.00005777775038,-34.35171802982136,0 -71.000953051037,-34.35166484192845,0 -71.00219719969287,-34.35220409447248,0 -71.00268799966676,-34.35222887068749,0 -71.00494334949707,-34.35168873430823,0 -71.00625005047503,-34.35166230906451,0 -71.00749119256068,-34.35192486735581,0 -71.00831587477087,-34.35268002808481,0 -71.00893365950623,-34.35289280937394,0 -71.00957267336993,-34.35274678707523,0 -71.01063813115766,-34.35186433478403,0 -71.01295951820728,-34.35098966535992,0 -71.01364700237767,-34.35126436241416,0 -71.01435507078222,-34.35183553622067,0 -71.01466476294384,-34.35179159824431,0 -71.01495232661227,-34.3516421179616,0 -71.01516949303569,-34.35188833344915,0 -71.01550404466097,-34.35331243275564,0 -71.01574142011204,-34.35364162605777,0 -71.01596995906932,-34.35377780987159,0 -71.01594916162944,-34.35447839223465,0 -71.01621217071819,-34.35461931847486,0 -71.01993110497087,-34.35394926876069,0 -71.02063164187722,-34.35400682898846,0 -71.02101889989689,-34.35461619305895,0 -71.02227243439859,-34.35506726425364,0 -71.02488881726391,-34.35540244277348,0 -71.02505428482634,-34.35557419482863,0 -71.02607391878286,-34.35745246768529,0 -71.02699061489265,-34.35932695380942,0 -71.02732746150909,-34.35964007627607,0 -71.02798274610882,-34.35975450382468,0 -71.02816499595802,-34.35994156343668,0 -71.02885173411778,-34.36195322599775,0 -71.03083345758569,-34.36206017291698,0 -71.03145470154737,-34.36194680757676,0 -71.03357297057777,-34.36064393759676,0 -71.0350376361551,-34.35992052212902,0 -71.03794449469115,-34.35904936213275,0 -71.04110638748547,-34.35743853926481,0 -71.0456242305406,-34.35604224010174,0 -71.04629831697332,-34.35596979646521,0 -71.0478876025967,-34.35706774358725,0 -71.05055001833171,-34.35684365520638,0 -71.05509463630993,-34.35703693009131,0 -71.06962465947123,-34.35708307415705,0 -71.07053567339229,-34.35735457674478,0 -71.07114945335253,-34.35829220564484,0 -71.07242977807734,-34.36549842280008,0 -71.07329292505359,-34.36593781550612,0 -71.08060813465764,-34.36630885309543,0 -71.08571973737048,-34.36699624180945,0 -71.08689161732178,-34.36733345718486,0 -71.08878627662035,-34.36800143327105,0 -71.09517527265599,-34.36902072020498,0 -71.09643516276044,-34.36917344554308,0 -71.09781312268791,-34.36926397621231,0 -71.09840529661469,-34.36937941989707,0 -71.09860620555587,-34.36969411912505,0 -71.09867255194231,-34.36968239099406,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Coinco Qta Tilcoco</name>
+			<styleUrl>#inline113</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.94926216644473,-34.27021039315609,0 -70.94915492902544,-34.27023921991096,0 -70.94898826231896,-34.269345536121,0 -70.95053633046096,-34.26888732322397,0 -70.9511655333103,-34.27000318066215,0 -70.95268155801313,-34.26904825705908,0 -70.95324749699279,-34.26895073753069,0 -70.9540585439559,-34.26893161529969,0 -70.9549531477563,-34.26914835528979,0 -70.95578084363328,-34.26922816877499,0 -70.95757787322984,-34.27025582334183,0 -70.9582501163508,-34.27072129642007,0 -70.9596340266401,-34.27111707200876,0 -70.9631675739971,-34.27242068764429,0 -70.96692207390326,-34.27407821402898,0 -70.97036899881728,-34.27401396603782,0 -70.97379910610989,-34.27482712626217,0 -70.97413012445888,-34.27472549514361,0 -70.97444139480866,-34.27460908307513,0 -70.9749224699567,-34.27468972728149,0 -70.97533242363083,-34.27512155265545,0 -70.97559645211904,-34.27555984835777,0 -70.97602461232714,-34.27579664430327,0 -70.9769644451589,-34.2761131019292,0 -70.97787112120383,-34.27619742781422,0 -70.97848159791225,-34.27640168584084,0 -70.97871732697804,-34.27659025583927,0 -70.97877083488659,-34.27724284769992,0 -70.97899781434919,-34.27757203855836,0 -70.97961322796206,-34.27786927716836,0 -70.98120438277606,-34.27928190122862,0 -70.98198349077144,-34.28002713661898,0 -70.98205524009325,-34.28038584070612,0 -70.98200394447441,-34.28088185038841,0 -70.98241493056057,-34.28164957258907,0 -70.98268375903173,-34.28241737448668,0 -70.98318896072219,-34.28350062791061,0 -70.98406718860458,-34.28464601614408,0 -70.98443060054261,-34.28523698181633,0 -70.98485765813275,-34.28646383659739,0 -70.9852164881022,-34.28740355299196,0 -70.98573584005015,-34.28840437330209,0 -70.98598324836135,-34.2910871372518,0 -70.98615486805333,-34.29119328041283,0 -70.98703051654449,-34.29136381671889,0 -70.98708180794895,-34.29157580564552,0 -70.98530457971948,-34.29350510782874,0 -70.98534408045099,-34.29372122638279,0 -70.98644262433452,-34.29494238843587,0 -70.98649110427199,-34.29520709605108,0 -70.9861607050149,-34.29576042932704,0 -70.98613142359109,-34.2960204704031,0 -70.98774307527157,-34.30035215488361,0 -70.98884171579991,-34.30284102182356,0 -70.99218162186546,-34.31007652484284,0 -70.9919731735414,-34.31077057944412,0 -70.98903823300058,-34.31237077217283,0 -70.98879396871443,-34.31262558415558,0 -70.98808886099901,-34.31517046031199,0 -70.98713187926982,-34.31703558960409,0 -70.98671684993829,-34.31833918675178,0 -70.98436604032577,-34.31932520348937,0 -70.98102605816968,-34.32060164592563,0 -70.97826924183718,-34.32058218538055,0 -70.97609649933274,-34.32149767303935,0 -70.97547177768786,-34.3237245369024,0 -70.97366355074975,-34.32567852248523,0 -70.97242070282697,-34.3307463082413,0 -70.97089249731867,-34.33086863181399,0 -70.97075027344786,-34.33109707423372,0 -70.97079748157091,-34.33232394881514,0 -70.9703662452704,-34.3329278143829,0 -70.96966984206706,-34.3341693917107,0 -70.96923851578231,-34.33444304457702,0 -70.96909842635704,-34.33489289669839,0 -70.96886971694981,-34.33590757974277,0 -70.96742005263482,-34.33640563736984,0 -70.96730526328147,-34.33668036897876,0 -70.96744455221375,-34.33692160385319,0 -70.96730511819467,-34.33785434025376,0 -70.96722605073849,-34.33842252532216,0 -70.96745986305511,-34.33896965894139,0 -70.96834847545185,-34.33902436890491,0 -70.96882876554068,-34.33936541755922,0 -70.97104456769036,-34.34217683840834,0 -70.97107855431301,-34.34276405463204,0 -70.97073811909554,-34.34558646858402,0 -70.97009589155402,-34.34762064301,0 -70.96992504610502,-34.35019428865154,0 -70.96959366763014,-34.35374409245891,0 -70.96437418472634,-34.35419424859772,0 -70.96455660507993,-34.35498619764368,0 -70.96476221269576,-34.35498341266289,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Derivación Lo Miranda</name>
+			<styleUrl>#inline110</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.88766358342289,-34.20574034253497,0 -70.88835511755094,-34.2058374837865,0 -70.88877747655239,-34.20178556076292,0 -70.88831483611071,-34.20174584625367,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Derivación Concent Zúñiga</name>
+			<styleUrl>#inline15</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.09883098970288,-34.3697096144377,0 -71.09863915097576,-34.36970550272964,0 -71.09841851370643,-34.36937699545025,0 -71.09840195183347,-34.36924324295408,0 -71.09842958617837,-34.36885879492161,0 -71.09847299080204,-34.3682018679031,0 -71.09852044155217,-34.36803927547051,0 -71.09865068048991,-34.36757093041873,0 -71.09873181250532,-34.36758405623968,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Zuñiga Tunca Ruta 66 8Km</name>
+			<styleUrl>#inline14</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.09269077046206,-34.42663154457417,0 -71.09622626982066,-34.42512431029122,0 -71.09931257638203,-34.41924956626019,0 -71.0990134063495,-34.41675734713127,0 -71.0975382898914,-34.41516346217235,0 -71.09614257488936,-34.41325116182161,0 -71.09687386527199,-34.41109950904222,0 -71.09681879482888,-34.41052277730206,0 -71.09659181439956,-34.40960697529025,0 -71.09653293921176,-34.40813635568778,0 -71.09669795376566,-34.40718131921218,0 -71.09726756776084,-34.40641076200164,0 -71.09778930218799,-34.40589070797069,0 -71.09798581488741,-34.40546824054938,0 -71.09784366008076,-34.40528369756064,0 -71.09653841797524,-34.40498653214341,0 -71.09535309035628,-34.40461585572429,0 -71.09386582841508,-34.40392338268269,0 -71.09334724626387,-34.40358697024202,0 -71.092929494248,-34.40304207453701,0 -71.09237358072502,-34.40178526942334,0 -71.09206457243371,-34.40110407989198,0 -71.09148801622234,-34.39973153573384,0 -71.0915577478803,-34.39923138389551,0 -71.0916831781376,-34.39869919859284,0 -71.09165957682929,-34.39846340976369,0 -71.09089277440096,-34.39732918893292,0 -71.09088306394591,-34.39714823142311,0 -71.092299356938,-34.39602943797435,0 -71.09762436062977,-34.3910350782117,0 -71.09802369034442,-34.39020028942449,0 -71.09809535001025,-34.38876957939688,0 -71.09844747065884,-34.38829964386171,0 -71.09978649737096,-34.38659690591172,0 -71.10043744551551,-34.38612334770554,0 -71.10325293391395,-34.38512637642512,0 -71.10321779176221,-34.384672945928,0 -71.10354669960081,-34.38335609074078,0 -71.10520502414654,-34.37758157096327,0 -71.10566520696192,-34.37560578105466,0 -71.10555480457498,-34.3749131048149,0 -71.1039956232147,-34.37400118385916,0 -71.10106282500848,-34.37232125463806,0 -71.09900294227255,-34.37056701855146,0 -71.09843430310715,-34.36984123730299,0 -71.09827470997574,-34.36956436795263,0 -71.09890284998386,-34.36953378003467,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Sn Vicente Peumo</name>
+			<styleUrl>#inline04</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.07712476704236,-34.44026091203079,0 -71.0769158565644,-34.44036216126309,0 -71.07663696791406,-34.43978248920195,0 -71.07933598342029,-34.43885554406384,0 -71.08553692739451,-34.43678406165152,0 -71.08710995574796,-34.43577836824832,0 -71.08797448000287,-34.43541516076543,0 -71.08948270297564,-34.43545142815042,0 -71.09810530914578,-34.43640492872089,0 -71.10141651316242,-34.43657157251348,0 -71.10112780001607,-34.43512425925747,0 -71.09849277106055,-34.42617593682531,0 -71.09638091715918,-34.42522032951219,0 -71.10223770274636,-34.42288638614081,0 -71.11347847692042,-34.41883235418283,0 -71.13185029923059,-34.41165385216402,0 -71.13926322677426,-34.40872920616535,0 -71.14204992682146,-34.40819521313154,0 -71.14562665124546,-34.40423953072808,0 -71.16361929348142,-34.3915951477484,0 -71.16584113317036,-34.39062085191173,0 -71.16689116953057,-34.39232493040348,0 -71.17256045194399,-34.38769883741424,0 -71.1730603565707,-34.38811929210779,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Tunca Ruta 66</name>
+			<styleUrl>#inline20</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.09091975687521,-34.39721481259335,0 -71.09099852150457,-34.39730773760262,0 -71.09171805493479,-34.39847086023917,0 -71.09176803507545,-34.39867438477626,0 -71.09159334438085,-34.39935714919319,0 -71.09156529378917,-34.39972812974376,0 -71.09204887955269,-34.40089135478506,0 -71.09298759738911,-34.40295703310239,0 -71.09344621927586,-34.4035533508467,0 -71.09417065396686,-34.40400116610719,0 -71.09537954728003,-34.40456047360186,0 -71.09661614593597,-34.40496440089862,0 -71.09788236185179,-34.40522223787699,0 -71.0980434175341,-34.40546300408061,0 -71.09783271933493,-34.40590816324981,0 -71.09731259188634,-34.4064289422176,0 -71.09675058418993,-34.40725265475994,0 -71.09663329633621,-34.40820589243125,0 -71.09674015986177,-34.40968457685245,0 -71.09701768340548,-34.41075537419651,0 -71.09697722416043,-34.41126383197828,0 -71.09649907632348,-34.41273867110144,0 -71.09635057372415,-34.4131784964282,0 -71.09655788384136,-34.41357577610566,0 -71.09752539024522,-34.41497183907759,0 -71.09884498720491,-34.4164214852379,0 -71.09897445841877,-34.41663388396493,0 -71.09941017993428,-34.41660204517099,0 -71.10499245937638,-34.41750283581929,0 -71.10741555658456,-34.41788173314724,0 -71.11299160997255,-34.41822538503049,0 -71.11406998716582,-34.41828859489901,0 -71.11433922373475,-34.4184500346817,0 -71.11534413707002,-34.41799267842802,0 -71.11637709046197,-34.41753824835446,0 -71.11639175982268,-34.41768132231644,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Peumo Pichidegua</name>
+			<styleUrl>#inline2</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.17301430458625,-34.38807620197037,0 -71.17260441032062,-34.38760879309218,0 -71.17539721493803,-34.3853790359548,0 -71.17503937761023,-34.38482121820108,0 -71.17661238486869,-34.38303847020169,0 -71.18744386215795,-34.37512268281682,0 -71.21056043580477,-34.35858104170551,0 -71.21572977790859,-34.35481085359275,0 -71.2398398462912,-34.38054462931691,0 -71.24516999277093,-34.38163231189157,0 -71.24803729812174,-34.37619202528843,0 -71.24767856524042,-34.37408793668173,0 -71.25698188779089,-34.37146119678258,0 -71.26300538745897,-34.3678626724053,0 -71.27455250150786,-34.36334543928588,0 -71.27654924153046,-34.36246075051738,0 -71.27833710975335,-34.36188102644132,0 -71.2809197158405,-34.35995154518858,0 -71.28217801413922,-34.35876830843406,0 -71.28238879301828,-34.35895399038398,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Derivación Las Cabras</name>
+			<styleUrl>#inline22</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.21466559018536,-34.3555021280722,0 -71.21658880873798,-34.35494962227563,0 -71.2176168042994,-34.35351898352415,0 -71.22748556803263,-34.3459355247267,0 -71.23155796799394,-34.34308998027011,0 -71.23386880997025,-34.34041995829458,0 -71.23238152463033,-34.33858497739198,0 -71.24094962599415,-34.32929740573756,0 -71.24708819217588,-34.32401223962898,0 -71.25816643995964,-34.31478199878107,0 -71.26704422246009,-34.30727415629124,0 -71.27331638032945,-34.30238674434157,0 -71.28100163917117,-34.29822620625886,0 -71.29042840112298,-34.29499682006279,0 -71.2922125386295,-34.29468727503149,0 -71.29877800167964,-34.29633950991894,0 -71.30509032835825,-34.29505418679873,0 -71.31140307608675,-34.29369584834973,0 -71.31035601773061,-34.29207143419473,0 -71.3092696347197,-34.29254421574294,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Zuñiga Tunca</name>
+			<styleUrl>#inline8</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-71.09867255194231,-34.36968239099406,0 -71.09863651083751,-34.36973043381165,0 -71.0990036606824,-34.37026715762129,0 -71.09952509312599,-34.37081730323134,0 -71.1013291639516,-34.37227962668214,0 -71.106084960592,-34.37494365376938,0 -71.10580067144072,-34.37631322030484,0 -71.10516704872931,-34.37859103656152,0 -71.1040120445539,-34.38265590215548,0 -71.10341588530136,-34.384559959329,0 -71.10340091366034,-34.38517716842383,0 -71.10062090064895,-34.38619312004128,0 -71.09998736550931,-34.38662543719645,0 -71.09836394457827,-34.38864792018056,0 -71.09824705124575,-34.39012099318344,0 -71.09794588610312,-34.39091253025733,0 -71.0948393897138,-34.39382695714605,0 -71.0925106516319,-34.39600856107776,0 -71.09130650538066,-34.39693362804791,0 -71.09091975687521,-34.39721481259335,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo Pelequén Sn Vicente</name>
+			<styleUrl>#inline17</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.89285263470441,-34.46640664127246,0 -70.89280825484656,-34.46626778242202,0 -70.89499700101898,-34.46550965085574,0 -70.89543040866808,-34.46659958377109,0 -70.89671331119854,-34.46621172182662,0 -70.89750348048995,-34.46807981638386,0 -70.89947833261036,-34.46752983895416,0 -70.89959557295829,-34.46711263575744,0 -70.89910382152878,-34.46557707250267,0 -70.90256757867988,-34.46463938289916,0 -70.90893486550439,-34.46353815401079,0 -70.91093128891262,-34.46331384149372,0 -70.91573032497145,-34.46415299411743,0 -70.92392249893523,-34.46372734791305,0 -70.93337306572161,-34.46314404177021,0 -70.95199872186609,-34.4618753513987,0 -70.96371646747103,-34.46071094523665,0 -70.9713357953523,-34.45805568789197,0 -70.97407701319545,-34.45825746889013,0 -70.97764770311967,-34.45700033622856,0 -70.97908555516992,-34.45689281060801,0 -70.98162623412441,-34.4576517519259,0 -70.98360767947325,-34.45763631027958,0 -70.9894506263657,-34.45464636117524,0 -70.99186500769073,-34.45380792473838,0 -70.99705615731243,-34.45248878052821,0 -71.00730267554067,-34.44977736676034,0 -71.009377880657,-34.44872287266674,0 -71.01698117213822,-34.44754299585929,0 -71.02027078341015,-34.44748869739296,0 -71.03014802733694,-34.44586674384825,0 -71.03944663589458,-34.44444309670328,0 -71.04305800844786,-34.44303606098775,0 -71.05166754146323,-34.44230257734451,0 -71.05808446364699,-34.43978317232171,0 -71.07204041804894,-34.43460452759786,0 -71.07350287850335,-34.44075327430434,0 -71.07652271938763,-34.43976982482739,0 -71.07684795914106,-34.44034783292064,0 -71.07712874176111,-34.44024204263108,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Tramo  Rancagua Lo Miranda</name>
+			<styleUrl>#inline111</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-70.74690516339,-34.1700714746577,0 -70.74624989352776,-34.17011710388176,0 -70.75212698828655,-34.18401997651844,0 -70.75263498246628,-34.18563124858576,0 -70.75896496406914,-34.18826883890328,0 -70.76453787461296,-34.18669075748441,0 -70.77816460214105,-34.18383319843653,0 -70.78707132116233,-34.18328699641539,0 -70.8290363621303,-34.17999027129694,0 -70.84507000636512,-34.18824467806436,0 -70.84301182756293,-34.19032818702236,0 -70.84297551053994,-34.19164519910025,0 -70.84813686008607,-34.19457211758499,0 -70.85413232217159,-34.19634730897768,0 -70.87214452543196,-34.20174854223401,0 -70.8832208196018,-34.20517386645142,0 -70.88848943225837,-34.20588177135254,0 -70.89673873319455,-34.20951298098635,0 -70.90154032658693,-34.21087726926801,0 -70.90854571289373,-34.21305873032593,0 -70.91598155320776,-34.21549765245033,0 -70.9196778011584,-34.21672239136871,0 -70.92508084765151,-34.21846006330279,0 -70.93085802266133,-34.22031327016489,0 -70.95257266848711,-34.22730760912106,0 -70.9559403550835,-34.22830085256921,0 -70.9614725419172,-34.22981367495669,0 -70.96246597533997,-34.23012801779156,0 -70.96288392775516,-34.22771348997699,0 -70.96299908452366,-34.22671204281544,0 -70.96346472781597,-34.22670400547989,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>OC y Troncales Moviles</name>
+		<Placemark>
+			<name>CCM Almarza</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-70.73873568322743</longitude>
+				<latitude>-34.16685678114973</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01361480705956548</heading>
+				<tilt>42.98065280815432</tilt>
+				<range>809.1289805635345</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-70.73782425773153,-34.16810363270144,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Zanartu</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-70.73733345469786</longitude>
+				<latitude>-34.17081615455847</latitude>
+				<altitude>0</altitude>
+				<heading>-0.01440243298097799</heading>
+				<tilt>42.9806528081543</tilt>
+				<range>809.1289805644788</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-70.73671073645993,-34.1727708179281,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Orocoipo TM</name>
+			<open>1</open>
+			<LookAt>
+				<longitude>-70.73564660690135</longitude>
+				<latitude>-34.21641070417205</latitude>
+				<altitude>0</altitude>
+				<heading>-0.009494576365880565</heading>
+				<tilt>42.99557772306577</tilt>
+				<range>205.980110211136</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_homegardenbusiness3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-70.73526313881794,-34.21588925636414,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

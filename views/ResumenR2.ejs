@@ -1,0 +1,400 @@
+<html xmlns="www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" http-equiv="Content-Type" content="width=device-width" charset=utf-8 />
+<title>Resumen de Alarmas</title>
+<style type="text/css">
+body,td,th {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-style: italic;
+}
+h2 {
+	font-size: 16px;
+	color: #F00;
+}
+.boton{
+        font-size:1px;    
+        width:100px;
+        height:80px;
+       }
+.boton1{
+        font-size:1px;    
+        width:80px;
+        height:30px;
+       }
+.boton9{
+		text-align:center;
+		font-size:12px;
+        width:60px;
+        height:12px;
+       }	   	   
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="resource/js/jquery-3.6.0.min.js"></script>
+<script>
+    //var resultperfil = <%- resultPerfil %>;
+
+    function Numeros(string){//Solo numeros
+        var out = '';
+        var filtro = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';//Caracteres validos
+        
+        //Recorrer el texto y verificar si el caracter se encuentra en la lista de validos 
+        for (var i=0; i<string.length; i++)
+        if (filtro.indexOf(string.charAt(i)) != -1) 
+                //Se añaden a la salida los caracteres validos
+            out = out . string.charAt(i);
+        //Retornar valor filtrado
+        return out ;
+    }
+
+    function parpadear() {
+
+        with (document.getElementById("parpadeo").style);
+
+        visibility = (visibility == "visible") ? "hidden" : "visible";
+
+    }
+
+    $( document ).ready(function() {
+        
+    });
+</script>
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+    <table border="0" align="center">
+
+        <tr>
+            <td align="left" rowspan="2" colspan="2">
+                <% if ( area == "TOT") { %>
+                <form id="form2" name="form2" method="post"
+                    action="/Lista de Alarmas/ResumenRM.php?recordID=TMETRO&Codigo=<?php echo $Codigo ?>">
+                    <input type="image" name="imageField0" src="resource/Imagenes/Metropolitana.png" height="25" width="120">
+                </form>
+                <% } %>
+            </td>
+            <td rowspan="2" colspan="2">
+                <form id="form2" name="form2" method="post"
+                    action="/Lista de Alarmas/ResumenElectrico.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+                    <div align="center">
+                        <input type="image" name="imageField" src="resource/Imagenes/Electrico2.png" height="55" width="55">
+                    </div>
+                </form>
+            </td>
+            <td align="center" style="font-size:18px" colspan="3">
+                <font color="#FF0000"><b>
+                        RESUMEN ALARMAS ACTIVAS
+            </td>
+            <td rowspan="2" Align="CENTER" colspan="2">
+                <% if ( area == "TOT" || area == "SGON" || area == "SGOS" ) { %>
+                <form id="form2" name="form2" method="post"
+                    action="/Lista de Alarmas/Menu_Subtel.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+    
+                    <div align="center">
+                        <input type="image" name="imageField" src="resource/Imagenes/subtel.png" height="55" width="55">
+                    </div>
+                </form>
+                <% } %>
+            </td>
+            <td rowspan="2" Align="CENTER" colspan="2">
+    
+                <form id="form2" name="form2" method="post"
+                    action="/Lista de Alarmas/TemperaturaNodeB.php?&area=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>&AT=ALL">
+    
+                    <div align="center">
+                        <input type="image" name="imageField" src="resource/Imagenes/termometro.jpg"height="60" width="60">
+                    </div>
+                </form>
+            </td>
+            <td rowspan="2" Align="CENTER" colspan="2">
+    
+                <form id="form2" name="form2" method="post" action="/Lista de Alarmas/Mapa11.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+                    <input type="image" name="imageField0" src="resource/Imagenes/Google-Maps.png" src="/Lista de Alarmas/Imagenes/Google-Maps.png" height="50" width="60">
+                </form>
+    
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" Align="center" style="font-size:20px">
+                <font color="#0000FF"><b>
+                        <%= username %>
+                    </b>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" colspan="2" style="font-size:14px">Nemonico (5 Caracteres)</td>
+    
+            <td colspan="5" Align="center" style="font-size:18px">
+                <font color="#FF0000"><b>Proxima Actualizacion</b>
+            </td>
+    
+            <td rowspan="2" Align="CENTER" colspan="2">
+                <% if ( area == "TOT" || area == "SGON" || area == "SGOS" ) { %>
+                <form id="form2" name="form2" method="post" action="/Lista de Alarmas/Reporte_Indisponibilidades.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>&AT=RESUMEN">
+                    <input type="image" name="imageField0" src="resource/Imagenes/Reporte.png" height="60" width="50">
+                </form>
+                <% } %>
+            </td>
+            <td rowspan="2" Align="CENTER" colspan="2">
+                <form id="form1" name="form1" method="post"
+                    action="/Lista de Alarmas/Graf_Ind5.php?recordID=<?PHP echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+    
+                    <input type="image" name="imageField0" src="resource/Imagenes/Reporte2.png" height="60" width="50">
+                </form>
+            </td>
+            <td rowspan="2" Align="CENTER" colspan="2">
+                <form id="form2" name="form2" method="post"
+                    action="/Lista de Alarmas/Core_Voz.php?recordID=<?php echo $colname_AREA ?>&Codigo=<?php echo $Codigo ?>">
+                    <input type="image" name="imageField0" src="resource/Imagenes/Core.png"  height="60" width="60">
+                </form>
+            </td>
+        </tr>
+        <form action="<?php echo $editFormAction; ?>" method="post" name="form3" id="form3">
+            <tr>
+                <td width="50" Align="CENTER" colspan="1">
+                    <label><input type="text" name="nemo" value="" size="1" class="boton9"
+                            onkeyup="this.value=Numeros(this.value)" maxlength="5" /></label>
+    
+                </td>
+                <td>
+                    <div align="left">
+                        <input type="image" name="imageField" src="resource/Imagenes/Buscar.png" height="20" width="30" onchange="form3.submit()">
+                    </div>
+                    <input type="hidden" name="MM_update3" value="form3" />
+        </form>
+        </td>
+    
+    </table>
+
+    <table table border="1" align="center">
+        <thead>
+
+            <% resultPerfil.forEach((perfil) => {%>
+            
+            <tr>
+                <th width="300" align="center">Alarmas</th>
+                <% if(perfil.ATARI == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=ATARI&area=<%= area %>" style="text-decoration:none">ARI</a></th>
+                <%}%>
+                <% if(perfil['AT IQQ'] == '1'){ %>
+                    <th width="6" align="center">
+                        <a href="ResumenB?recordID2=100&Codigo=1&AT=AT IQQ&area=<%= area %>" style="text-decoration:none">IQQ</a>
+                    </th>
+                <%}%>
+                <% if(perfil['AT CLM'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT CLM&area=<%= area %>" style="text-decoration:none">CLM</a></th>
+                <%}%>
+                <% if(perfil['AT ATF'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT ATF&area=<%= area %>" style="text-decoration:none">ATF</a></th>
+                <%}%>
+                <% if(perfil['AT COP'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT COP&area=<%= area %>" style="text-decoration:none">COP</a></th>
+                <%}%>
+                <% if(perfil['AT SRN'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT SRN&area=<%= area %>" style="text-decoration:none">SRN</a></th>
+                <%}%>
+                <% if(perfil.ATCOSTA == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT_V_COSTA&area=<%= area %>" style="text-decoration:none">VCOS</a></th>
+                <%}%>
+                <% if(perfil.ATCORDILLERA == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT_V_CORDILLERA&area=<%= area %>" style="text-decoration:none">VCOR</a></th>
+                <%}%>
+                <% if(perfil['AT RCG'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT RCG&area=<%= area %>" style="text-decoration:none">RCG</a></th>
+                <%}%>
+                <% if(perfil['AT TLC'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT TLC&area=<%= area %>" style="text-decoration:none">TLC</a></th>
+                <%}%>
+                <% if(perfil['AT CHI'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT CHI&area=<%= area %>" style="text-decoration:none">CHI</a></th>
+                <%}%>
+                <% if(perfil['AT CCP'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT CCP&area=<%= area %>" style="text-decoration:none">CCP</a></th>
+                <%}%>
+                <% if(perfil['AT TCO'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT TCO&area=<%= area %>" style="text-decoration:none">TCO</a></th>
+                <%}%>
+                <% if(perfil['AT VOS'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT VOS&area=<%= area %>" style="text-decoration:none">VOS</a></th>
+                <%}%>
+                <% if(perfil['AT PMT'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT PMT&area=<%= area %>" style="text-decoration:none">PMT</a></th>
+                <%}%>
+                <% if(perfil['AT COY'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT COY&area=<%= area %>" style="text-decoration:none">COY</a></th>
+                <%}%>
+                <% if(perfil['AT PTA'] == '1'){ %>
+                    <th width="6" align="center"><a href="ResumenB?recordID2=100&Codigo=1&AT=AT PTA&area=<%= area %>" style="text-decoration:none">PTA</a></th>
+                <%}%>
+                <% if(perfil.perfil == 'TOT' || perfil.perfil == 'SGOS' || perfil.perfil == 'SGON'|| perfil.perfil == 'TOTAL' ){ %>
+                    <th width="6" align="center"><a href="ResumenTOT?recordID2=100&Codigo=1&AT=TOTALA&area=<%= area %>" style="text-decoration:none">TOTAL</a></th>
+                <%}%>
+            </tr>
+            <%});%>
+        </thead>
+        <tbody>
+            
+            <% resultPerfil.forEach((perfil) => {%>
+
+                <% for (let i = 0; i < resultNorth.length; i++) { %>
+                    <tr>
+                        <td width="6" align="center"><%= resultNorth[i].texto %></td>
+                        
+                        <% if(perfil.ATARI == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=ATARI&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATARI %></a>
+                            </td>
+                        <%}%>
+
+                        <% if(perfil['AT IQQ'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT IQQ&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATIQQ %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT CLM'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT CLM&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATCLM %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT ATF'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT ATF&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATATF %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT COP'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT COP&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATCOP %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT SRN'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT SRN&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATSRN %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil.ATCOSTA == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT_V_COSTA&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATCOSTA %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil.ATCORDILLERA == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT_V_CORDILLERA&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].ATCORDILLERA %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT RCG'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&AT=AT RCG&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATRCG %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT TLC'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT TLC&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATTLC %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT CHI'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT CHI&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATCHI %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT CCP'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT CCP&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATCCP %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT TCO'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT TCO&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATTCO %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT VOS'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT VOS&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATVOS %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT PMT'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT PMT&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATPMT %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT COY'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT COY&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATCOY %></a>
+                            </td>
+                        <%}%>
+        
+                        <% if(perfil['AT PTA'] == '1'){ %>
+                            <td width="6" align="center">
+                                <a href="ResumenB?recordID2=<%= resultSouth[i].Tipo %>&Codigo=1&AT=AT PTA&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].ATPTA %></a>
+                            </td>
+                        <%}%>
+
+                        <% if(area == 'TOT'){
+                            var total = parseInt(resultSouth[i].TOTAL) + parseInt(resultNorth[i].TOTAL);
+                        %>
+                            <td width="6" align="center">
+                                <a href="ResumenTOT?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&area=<%= area %>" style="text-decoration:none"><%= total %></a>
+                            </td>
+                        <%}%>
+
+                        <% if(area == 'TOTAL'){
+                            var total = parseInt(resultSouth[i].TOTAL) + parseInt(resultNorth[i].TOTAL);
+                        %>
+                            <td width="6" align="center">
+                                <a href="ResumenTOT?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&area=<%= area %>" style="text-decoration:none"><%= total %></a>
+                            </td>
+                        <%}%>
+
+                        <% if(area == 'SGON'){%>
+                            <td width="6" align="center">
+                                <a href="ResumenSGON?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&area=<%= area %>" style="text-decoration:none"><%= resultNorth[i].TOTAL %></a>
+                            </td>
+                        <%}%>
+
+                        <% if(area == 'SGOS'){%>
+                            <td width="6" align="center">
+                                <a href="ResumenSGOS?recordID2=<%= resultNorth[i].Tipo %>&Codigo=1&area=<%= area %>" style="text-decoration:none"><%= resultSouth[i].TOTAL %></a>
+                            </td>
+                        <%}%>
+        
+                    </tr>
+                <%};%>
+                   
+            <%});%>
+        </tbody>
+    </table>
+
+    <table border="0" align="center">
+        <tr><td rowspan="3" Align="center">
+        </td>
+    </table>
+    <table border="0" align="center" >
+        <td width="8" align="left"><MARQUEE width="970" HEIGHT="15">AYUDANOS Si Ves un delito de Robo en nuestra red, contactate: 800 441 441 </MARQUEE></td>    
+    </table>
+
+    <p></p>
+    <p><br />
+    </p>
+</body>
+
+</html>

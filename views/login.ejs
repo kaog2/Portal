@@ -1,0 +1,93 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" http-equiv="Content-Type" content="width=device-width" charset=utf-8" />
+<title>Astro de Regiones</title>
+<style type="text/css">
+body {
+	background-image: url();
+	background-repeat: no-repeat;
+	margin-top: 50px;
+}
+h2 {
+	color: #F00;
+	font-size: 36px;
+}
+h3 {
+	font-size: 24px;
+	color: #00F;
+}
+.boton{
+       font-size:14px;
+        width:160px;
+        height:100px;
+		text-align:center;
+       }
+</style>
+</head>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script>
+function Numeros(string){
+    var out = '';
+    var filtro = '1234567890abcdefghijklmnñopqrstuvwxyzABCDEFGHIJKLMNÑOPQRSTUVWXZ$%&_';//Caracteres validos
+	
+    
+    for (var i=0; i<string.length; i++)
+       if (filtro.indexOf(string.charAt(i)) != -1) 
+            
+	     out += string.charAt(i);
+	
+    
+    return out;
+} 
+</script>
+<body>
+
+<h2 align="center"><em>Bienvenidos</em></h2>
+<table width="340" border="0" align="center">
+<tr><td  align="center" ><img  name="imageField0" src="resource/icon/200w_d.gif" class="boton" >
+</td>
+</tr>
+</table>
+
+
+<table width="350"  border="1" align="center" id="cont">
+  <tr>
+    <th width="350%" align="center" valign="middle" bgcolor="#0066FF" scope="row">Iniciar Sesion</th>
+  </tr>
+  <tr>
+    <th align="center" bgcolor="#999999" scope="row">
+        <form id="form1" name="form1" method="POST" action="/auth">
+            <p>Usuario:
+                <input id="user" name="user" type="text" onkeyup="this.value=Numeros(this.value)" />
+            </p>
+            <p>Password:
+                <input id="pass" name="pass" type="password" onkeyup="this.value=Numeros(this.value)"/>
+            </p>
+            <p>
+                <input type="submit" name="button" id="button" value="Ingresar" />
+            </p>
+        </form>
+      </th>
+  </tr>
+</table>
+
+
+<% if(typeof alert != "undefined"){%>
+    <script>
+        Swal.fire({
+            title: '<%= alertTitle %>',
+            text: '<%= alertMessage %>',
+            icon: '<%= alertIcon %>',
+            showConfirmButton: '<%= showConfirmButton %>',
+            timer: '<%= timer %>',
+        }).then(()=>{
+            window.location = '/<%= ruta %>'
+        })
+    </script>
+<%}%>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</body>
+</html>
+
