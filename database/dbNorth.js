@@ -1,5 +1,5 @@
 //Here all for the DB connection
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 const connectionAlarmasnorte = mysql.createConnection({
     host: process.env.DB_HOST,
