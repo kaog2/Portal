@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+
+  mysql_server:
+      image: kaog/nodejs-mysql:1.2
+      environment:
+        - MYSQL_ROOT_PASSWORD=password
+      ports:
+        - "3306:3306"
+      container_name: mydb
+      security_opt:
+        - seccomp:unconfined
+      command: "mysqld --character-set-server=utf8 --collation-server=utf8_general_ci --datadir=/var/lib/mysql-no-volume"
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9000:3000
+    volumes:
+      - .:/app
+    depends_on:
+      - mysql_server
