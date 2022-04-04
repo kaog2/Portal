@@ -1,5 +1,5 @@
 //Here all for the DB connection
-const mysql = require('mysql');
+const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
     host: process.env.DB_HOST,
@@ -17,7 +17,7 @@ connection.connect((error)=>{
     console.log('conection succesfully');
 });
 
-const connectionAlarmas = mysql.createConnection({
+/*const connectionAlarmas = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
@@ -63,6 +63,6 @@ connectionAlarmasnorte.connect((error)=>{
         return;
     }
     console.log('conection succesfully connectionAlarmasnorte');
-});
+});*/
 
 module.exports = connection;
