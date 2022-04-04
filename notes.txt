@@ -1,0 +1,9 @@
+For the Error -> mbind: Operation not permitted
+
+service:
+  mysql_server:
+      .
+      .
+      .
+      security_opt
+        - seccomp:unconfined
